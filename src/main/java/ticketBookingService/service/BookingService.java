@@ -5,6 +5,5 @@ import ticketBookingService.dtos.BookingDto;
 
 @Service
 public interface BookingService {
-
     public void createBooking(BookingDto bookingDto);
 }

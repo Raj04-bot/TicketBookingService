@@ -19,6 +19,7 @@ import java.util.List;
 @NoArgsConstructor
 public class BookingDto {
 
+
     @NotNull(message ="user id is mandatory")
     private int userId;
 

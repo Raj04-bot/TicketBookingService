@@ -9,7 +9,6 @@ import ticketBookingService.dtos.BookingDto;
 @RestController
 @RequestMapping("/booking")
 public class BookingController {
-
     @PostMapping
     public void createBooking(@RequestBody BookingDto bookingDto)
     {
